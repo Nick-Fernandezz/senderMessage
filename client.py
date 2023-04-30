@@ -10,4 +10,4 @@ import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-s.sendto(b'message for you', ('127.0.0.1', 8888))
+s.sendto(b'message for you', ('localhost', 8888))
